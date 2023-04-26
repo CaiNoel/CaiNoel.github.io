@@ -1,13 +1,16 @@
+/* Importing MS Sans Serif */
 @font-face {
   font-family: "MS Sans Serif";
   src: url('../fonts/msss/micross.ttf');
 }
 
+/* Background color */
 body {
     background-color: #b2c3e9;
     margin: 0px;
 }
 
+/* Modern main layout + font work */
 #mainContent {
   padding-top: 10%;
   padding-left: 11.7%;
@@ -44,15 +47,6 @@ h4 {
 a {
   text-decoration: none;
   color: #000;
-
-}
-
-#retroContent a {
-  color: #daf0f1;
-}
-
-#retroContent a:hover {
-  color: #A9FFBC;
 }
 
 #openingHeader {
@@ -102,6 +96,15 @@ a {
 
 #modernNav ul li a:hover::after{
   width: 100%;
+}
+
+/* Retro main layout + font work */
+#retroContent a {
+  color: #daf0f1;
+}
+
+#retroContent a:hover {
+  color: #A9FFBC;
 }
 
 #retroNav {

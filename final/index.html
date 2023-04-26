@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Hi, I'm Cai!</title>
-    <!-- Importing fonts, favicon and style.css -->
+    <!-- Importing fonts and style.css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@100;600&display=swap" rel="stylesheet">
   </head>
+  <!-- The "modern" navigation bar -->
   <nav id="modernNav">
     <div class="home">
       <a href="#"><h1 id="openingHeader">Hi, I'm Cai.</a>
@@ -18,8 +19,10 @@
       <li><a href="scripts.html">scripts</a></li>
       <li><a href="reviews.html">reviews</a></li>
     </ul>
+    <!-- windows 95 mode!!! -->
     <button class="retroButton" id="retroToggle">90s mode</button>
   </nav>
+  <!-- The "retro" navigation bar -->
   <nav id="retroNav">
     <div class="main">
     <ul>
@@ -27,20 +30,25 @@
       <li><a href="scripts.html"><button class="retroButton">scripts</button></a></li>
       <li><a href="reviews.html"><button class="retroButton">reviews</button></a></li>
     </ul>
+    <!-- modern mode -->
     <button class="retroButton" id="modernToggle">modern mode</button>
+    <!-- windows 95 mode plays the rain man soundtrack on loop in the background -->
     <embed id="bgmusic" src="assets/audio/rainman.mp3" loop="true" autostart="true" width="2"
        height="0">
     </div>
   </nav>
-  <body id="body">
 
+  <body id="body">
+    <!-- All the text + layout for the "modern" home page (THUMBNAILS AREN'T FINAL AND THEY DON'T LINK TO THE REAL WORK) -->
     <section id="mainContent">
       <h1>I'm a writer.</h1>
       <h2>I mainly write personal fiction and essays about literature, films, and games.</h2>
       <h3>We're still under construction – please be patient :)</h3>
+      <!-- Recent work (3x1 grid) -->
       <div id="recentWork">
         <h1>latest pieces</h1>
         <div class="grid">
+          <!-- Item template: document, title, category (thumbnail is defined in CSS, will change in a future version) -->
             <div class="recentItem" id="visionsThumb">
               <a href="assets/docs/sample.pdf">
               <h2><span>visions</span></h2>
@@ -61,7 +69,7 @@
             </div>
       </div>
     </section>
-
+    <!-- All the text + layout for the "retro" home page -->
     <section id="retroContent">
       <h1>Hi, I'm Cai.</h1>
       <h2>I'm a writer.</h1>
